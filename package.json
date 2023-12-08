@@ -1,0 +1,26 @@
+{
+  "name": "weblog",
+  "version": "1.0.0",
+  "description": "a weblog project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohammaD1232/weblog.git"
+  },
+  "author": "mohammad khodadadi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MohammaD1232/weblog/issues"
+  },
+  "homepage": "https://github.com/MohammaD1232/weblog#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "ejs-lint": "^2.0.0",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.2"
+  }
+}
