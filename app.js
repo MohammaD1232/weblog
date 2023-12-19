@@ -54,6 +54,7 @@ app.use("/users/signup", authRouter.signup);
 app.use("/users/logout",authRouter.logout);
 //Users dashboard
 app.use("/dashboard", authRouter.dashboard);
+app.use("/dashboard/add-post", authRouter.create_post);
 
 //Not Found Route
 app.use((req, res, next) => {
